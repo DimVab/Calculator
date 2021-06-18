@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Сайт с калькулятором">
+  <meta name="keywords" content="Калькулятор, вычисления">
+  <meta name="author" content="Дмитрий Вабищевич">
+  <link rel="stylesheet" href="./pages/index.css">
+  <title>Калькулятор</title>
+</head>
+<body class="root">
+  <header class="header root__header">
+    <h1 class="header__heading">Ещё один калькулятор</h1>
+  </header>
+
+  <main class="main">
+    <form class="form main__form" name="calculation" novalidate>
+      <div class="form__container form__container_type_inputs">
+        <span class="form__help">Операция:</span>
+        <input type="text" class="form__field form__input" id="form__input" value="" disabled>
+        <span class="form__input-error"></span>
+        <span class="form__help">Результат:</span>
+        <input type="text" class="form__field form__output" value="" disabled>
+      </div>
+      <div class="form__container form__container_type_operators">
+        <button class="form__button form__button_type_plus" type="button">+</button>
+        <button class="form__button form__button_type_minus" type="button">-</button>
+        <button class="form__button form__button_type_multiply" type="button">*</button>
+        <button class="form__button form__button_type_divide" type="button">/</button>
+        <button class="form__button form__button_type_equals" type="button">=</button>
+        <button class="form__button form__button_type_clean-last" type="button">CE</button>
+        <button class="form__button form__button_type_clean" type="button">C</button>
+      </div>
+      <div class="form__container form__container_type_buttons">
+        <button class="form__button form__button_number_1" type="button">1</button>
+        <button class="form__button form__button_number_2" type="button">2</button>
+        <button class="form__button form__button_number_3" type="button">3</button>
+        <button class="form__button form__button_number_4" type="button">4</button>
+        <button class="form__button form__button_number_5" type="button">5</button>
+        <button class="form__button form__button_number_6" type="button">6</button>
+        <button class="form__button form__button_number_7" type="button">7</button>
+        <button class="form__button form__button_number_8" type="button">8</button>
+        <button class="form__button form__button_number_9" type="button">9</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer root__footer">© Дмитрий Вабищевич. 2021</footer>
+
+  <script src="./scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.form__button {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border: 2px solid gray;
+  background-color: #f2f4f7;
+}
+
+.form__button:hover {
+  opacity: .7;
+  height: 55px;
+  width: 55px;
+}
+
+.form__button:active {
+  background-color: #d8dce3;
+}

@@ -1,0 +1,9 @@
+.form__field {
+  height: 30px;
+  width: 132px;
+  padding-left: 10px;
+  margin-right: 10px;
+  background-color: #f2f4f7;
+  color: black;
+  border: 2px solid gray;
+}

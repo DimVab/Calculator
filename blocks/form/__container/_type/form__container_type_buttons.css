@@ -1,0 +1,8 @@
+.form__container_type_buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 60px);
+  grid-template-rows: repeat(3, 60px);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
