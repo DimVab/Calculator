@@ -6,12 +6,14 @@
 
 @media screen and (max-width: 1024px) {
   .root {
+    position: relative;
+    min-height: 831px;
     padding: 30px 5%;
   }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 650px) {
   .root {
-    position: relative;
+    min-height: 661px;
   }
 }
