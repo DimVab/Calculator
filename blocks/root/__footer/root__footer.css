@@ -6,6 +6,7 @@
 
 @media screen and (max-width: 650px) {
   .root__footer {
+    position: static;
     bottom: 10px;
     left: 10px;
     font-size: 12px;
