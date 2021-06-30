@@ -5,3 +5,10 @@
 .form__container:last-of-type {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .form__container {
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+}

@@ -8,3 +8,22 @@
   justify-items: center;
   align-items: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .form__container_type_operators {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 96px);
+    grid-template-rows: 96px;
+    grid-auto-rows: 96px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .form__container_type_operators {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(4, 48px);
+    grid-template-rows: 48px;
+    grid-auto-rows: 48px;
+  }
+}

@@ -7,3 +7,30 @@
   color: black;
   border: 2px solid gray;
 }
+
+.form__field:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .form__field {
+    height: 48px;
+    min-width: 160px;
+    width: 280px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .form__field {
+    height: 24px;
+    width: 240px;
+    font-size: 12px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .form__field:last-of-type {
+    margin-bottom: 0;
+  }
+}

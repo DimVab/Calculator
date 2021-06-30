@@ -4,3 +4,10 @@
   display: inline-block;
   margin-right: 10px;
 }
+
+@media screen and (max-width: 650px) {
+  .form__help {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+}
